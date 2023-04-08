@@ -75,10 +75,12 @@
 
 				document.querySelector("html").setAttribute("data-bs-theme", colorMode);
 			}
-			  // Set theme on load
-			  updateTheme()
-			  // Update theme when the preferred scheme changes
-			  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateTheme)
+
+			// Update theme on load
+			updateTheme()
+
+			// Update theme when the preferred scheme changes
+			window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateTheme)
 		</script>
 	</body>
 </html>
