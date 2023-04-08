@@ -1,3 +1,7 @@
 * {
     font-family: "Charter", "Georgia", "Times New Roman", serif;
 }
+
+li > a {
+    text-decoration: none;
+}
